@@ -5,90 +5,79 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sally Moulds Singing Lessons</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
 <style>
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     background: #fdfdfd;
-    color: #333;
+    color: #2f3e34;
 }
 
-/* HERO */
+/* HEADER */
 header {
-    background: linear-gradient(135deg, #ff9fbf, #ffc2d6);
-    color: white;
+    background: linear-gradient(135deg, #5f8f66, #9ec5a2);
     text-align: center;
-    padding: 60px 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header p {
-    margin-top: 10px;
-    font-size: 1.2em;
+    padding: 50px 20px;
 }
 
 /* CONTENT */
 section {
     max-width: 900px;
     margin: auto;
-    padding: 40px 20px;
+    padding: 30px 20px;
 }
 
+/* HEADINGS */
 h2 {
-    color: #ff6f9c;
-    margin-bottom: 10px;
+    color: #3f6b4a;
+    font-weight: 600;
 }
 
-/* CARD STYLE */
+/* CARDS */
 .card {
-    background: white;
+    background: #ffffff;
     padding: 25px;
     margin: 25px 0;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+    border: 1px solid #e6efe8;
 }
 
+.card p {
+    line-height: 1.6;
+}
+
+/* IMAGES */
 img {
     width: 100%;
-    border-radius: 12px;
+    border-radius: 18px;
     margin-top: 15px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.08);
 }
 
 /* TESTIMONIALS */
 .testimonial {
-    background: #fff5f8;
+    background: #f3f8f3;
     padding: 20px;
-    border-left: 5px solid #ff6f9c;
+    border-left: 5px solid #5f8f66;
     margin-bottom: 15px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* CONTACT */
 .contact p {
     margin: 10px 0;
-    font-size: 1.05em;
 }
 
-/* BUTTON STYLE (future ready) */
-.button {
-    display: inline-block;
-    background: #ff6f9c;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    margin-top: 10px;
-}
-
+/* FOOTER */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     font-size: 14px;
-    color: #777;
+    color: #666;
+    background: #f3f8f3;
 }
 </style>
 </head>
@@ -96,31 +85,44 @@ footer {
 <body>
 
 <header>
-    <h1>Sally Moulds</h1>
-    <p>Warm, Friendly Singing Lessons for Children, Teens & Adults</p>
+    <img src="logo.png" alt="Sally Moulds Singing Lessons" style="max-width: 400px; width: 90%;">
 </header>
 
 <section>
 
     <div class="card">
-        <h2>About</h2>
+        <h2>Hello, I'm Sally</h2>
+
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Vivamus feugiat, velit at dapibus facilisis, quam lorem volutpat nisl, 
-            ac viverra ligula justo non turpis. Integer ac nisi ut lacus malesuada 
-            convallis et sit amet risus.
+        I am a passionate and experienced singing tutor with a strong background in both performance and music education. I hold a First Class BA (Hons) degree in Popular Music with Recording & Technology from the University of Salford, alongside a High Distinction in Introduction to Music Education using the Kodály Concept for Early Years and Primary learners.
         </p>
+
+        <p>
+        I previously spent four years performing and touring internationally with Michael Flatley’s <em>Lord of the Dance</em>, and continue to tour extensively across the UK, Europe, and the United States in a variety of bands and performances.
+        </p>
+
+        <p>
+        Alongside singing, I am also a skilled multi-instrumentalist, playing guitar, piano, and violin. My lessons are warm, encouraging, and tailored to each student—helping build confidence, musicality, and a genuine love of singing in learners of all ages.
+        </p>
+
         <img src="photo1.jpg" alt="Singing lesson">
     </div>
 
     <div class="card">
-        <h2>Lessons</h2>
+        <h2>The aim of my lessons</h2>
+
         <p>
-            • Fun, engaging lessons for young children<br>
-            • Supportive coaching for teens and adults<br>
-            • Build confidence and vocal technique<br>
-            • Beginners always welcome
+        • Fun and engaging for young children<br>
+        • Supportive coaching for teens and adults<br>
+        • Build confidence and vocal technique<br>
+        • Friendly with a relaxed approach<br>
+        • Progress at your own pace
         </p>
+
+        <p>
+        My lessons cover most modern contemporary singing styles including pop, jazz, soul, R&B, and folk. All set in a safe, no-pressure space designed to ease anxiety and keep learning enjoyable. Beginners are always very welcome.
+        </p>
+
         <img src="photo2.jpg" alt="Singing session">
     </div>
 
@@ -132,3 +134,25 @@ footer {
         </div>
 
         <div class="testimonial">
+            <p>"[Testimonial coming soon]"</p>
+        </div>
+    </div>
+
+    <div class="card contact">
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> 07881 952636</p>
+        <p><strong>Email:</strong> 
+        <a href="mailto:sally.moulds@yahoo.co.uk">sally.moulds@yahoo.co.uk</a>
+        </p>
+        <p><strong>Location:</strong> Nottingham / Online</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Sally Moulds</p>
+</footer>
+
+</body>
+</html>
+
